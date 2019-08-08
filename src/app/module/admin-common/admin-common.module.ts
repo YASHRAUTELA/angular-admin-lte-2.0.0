@@ -7,6 +7,10 @@ import { ChangePasswordComponent } from './change-password/change-password.compo
   declarations: [ProfileComponent, ChangePasswordComponent],
   imports: [
     CommonModule
+  ],
+  exports:[
+    ProfileComponent,
+    ChangePasswordComponent
   ]
 })
 export class AdminCommonModule { }

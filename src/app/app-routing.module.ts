@@ -44,6 +44,13 @@ const routes: Routes = [
         data:{
           title:'Admin'
         }
+      },
+      {
+        path:'super-admin',
+        loadChildren:'./module/super-admin/super-admin.module#SuperAdminModule',
+        data:{
+          title:'Super Admin'
+        }
       }
     ]
   }

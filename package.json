@@ -52,11 +52,12 @@
     "core-js": "^2.5.4",
     "font-awesome": "^4.7.0",
     "ionicons": "^2.0.1",
+    "ngx-ui-loader": "^8.0.0",
+    "primeicons": "^1.0.0",
+    "primeng": "^7.0.0",
     "prismjs": "^1.8.4",
     "rxjs": "^6.4.0",
-    "zone.js": "^0.8.29",
-    "primeng": "^7.0.0",
-    "primeicons": "^1.0.0"
+    "zone.js": "^0.8.29"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",

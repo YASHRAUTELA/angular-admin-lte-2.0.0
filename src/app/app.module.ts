@@ -15,6 +15,9 @@ import { LoadingPageModule, MaterialBarModule } from 'angular-loading-page';
 import {CalendarModule} from 'primeng/calendar';
 import { FormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { LoginComponent } from './auth/login/login.component';
+import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
+import { ResetPasswordComponent } from './auth/reset-password/reset-password.component';
 @NgModule({
   imports: [
     BrowserModule,
@@ -29,7 +32,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   ],
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    LoginComponent,
+    ForgotPasswordComponent,
+    ResetPasswordComponent
   ],
   bootstrap: [AppComponent]
 })

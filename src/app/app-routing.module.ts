@@ -37,6 +37,13 @@ const routes: Routes = [
         data:{
           customLayout:true
         }
+      },
+      {
+        path:'admin',
+        loadChildren:'./module/admin/admin.module#AdminModule',
+        data:{
+          title:'Admin'
+        }
       }
     ]
   }

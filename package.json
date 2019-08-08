@@ -54,7 +54,9 @@
     "ionicons": "^2.0.1",
     "prismjs": "^1.8.4",
     "rxjs": "^6.4.0",
-    "zone.js": "^0.8.29"
+    "zone.js": "^0.8.29",
+    "primeng": "^7.0.0",
+    "primeicons": "^1.0.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",

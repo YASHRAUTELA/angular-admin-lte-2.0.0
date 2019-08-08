@@ -12,15 +12,20 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 
 import { LoadingPageModule, MaterialBarModule } from 'angular-loading-page';
-
-
+import {CalendarModule} from 'primeng/calendar';
+import { FormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   imports: [
     BrowserModule,
     AppRoutingModule,
     CoreModule,
     LayoutModule.forRoot(adminLteConf),
-    LoadingPageModule, MaterialBarModule
+    LoadingPageModule,
+    MaterialBarModule,
+    CalendarModule,
+    FormsModule,
+    BrowserAnimationsModule
   ],
   declarations: [
     AppComponent,
